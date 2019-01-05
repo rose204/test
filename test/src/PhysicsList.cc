@@ -53,7 +53,8 @@ PhysicsList::PhysicsList()
     SetDefaultCutValue(currentDefaultCut);
     SetVerboseLevel(1);
   
-    RegisterConstructor("G4EmPenelopePhysics");
+    RegisterConstructor("G4EmDNAPhysics_option2");
+    RegisterConstructor("G4EmDNAChemistry");
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

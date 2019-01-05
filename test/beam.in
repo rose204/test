@@ -5,8 +5,8 @@
 
 /run/initialize
 
-/primaryKiller/eLossMin 1 keV # primary is killed if deposited E is greater than this value
-/primaryKiller/eLossMax 2 keV # event is aborted if deposited E is greated than this value
+#/primaryKiller/eLossMin 1 keV # primary is killed if deposited E is greater than this value
+#/primaryKiller/eLossMax 2 keV # event is aborted if deposited E is greated than this value
 /gun/position  0 0 0
 /gun/direction 0 0 1
 /gun/particle e-

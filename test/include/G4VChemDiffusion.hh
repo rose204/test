@@ -1,7 +1,7 @@
 /*
  * G4VChemDiffusion.hh
  *
- *  Created on: Dec 24, 2018
+ *  Created on: Dec 27, 2018
  *      Author: wgshin
  */
 
@@ -12,16 +12,8 @@
 
 class G4VChemDiffusion: public G4VChemProcess {
 public:
-
-
-
-
-	  // Concrete class that does the geometrical transport
-	public:
-
 	G4VChemDiffusion();
-	  virtual ~G4VChemDiffusion();
-
+	virtual ~G4VChemDiffusion();
 };
 
 #endif /* INCLUDE_G4VCHEMDIFFUSION_HH_ */

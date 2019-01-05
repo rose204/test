@@ -17,6 +17,8 @@ public:
 	  virtual ~G4VChemProcess();
 
 
+	  virtual void StartTracking(G4Track*);
+
 
 };
 
